@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</head>
+<body>      
+    <nav  class="navbar navbar-light bg-warning">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">COUNTER APP</span>
+            <span>00 : 00 : 00</span>
+        </div>
+        
+    </nav>
+
+    <input class="SecInp"  type="number" value="0">
+<br><br>
+   <div>
+    <button onclick="addcount()" type="button" class="btn btn-success">ADD</button>
+    
+    <span class="value">0</span>
+    
+    <button type="button" onclick="subcount()" class="btn btn-danger">SUB</button>
+   </div>
+<br>
+<br>
+
+  <div>
+    <input class="input" type="number" value="0">
+    
+    <button onclick="addbyinput()" type="button" class="btn btn-primary">ADD BY VALUE</button>
+  </div>
+</body>
+</html>
